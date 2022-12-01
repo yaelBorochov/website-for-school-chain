@@ -1,0 +1,14 @@
+.flex {
+  display: flex;
+  -ms-flex: 1;  /* IE 10 */  
+  flex: 1;
+  align-items: right;
+  align-content: right;
+  }
+  .items-right-align{
+    align-items: right;
+  }
+
+  h6{
+    text-align: right;
+  }

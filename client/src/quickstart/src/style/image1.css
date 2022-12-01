@@ -1,0 +1,93 @@
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .flex-container > div {
+     width: 110px;
+    margin-left: 130px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px; 
+  }
+
+  .flex-container2 {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .flex-container2 > div {
+    width: 100px;
+   margin-left: 5px;
+   margin-right: 100px;
+   text-align: center;
+   line-height: 75px;
+   font-size: 30px; 
+ }
+
+ .flex-container3 {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .flex-container3 > div {
+    width: 320px;
+   /* margin-left: 2px; */
+   margin-right: 100px;
+   text-align: center;
+   line-height: 75px;
+   font-size: 30px; 
+ }
+
+ .flex-container4 {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .flex-container4 > div {
+    width: 220px;
+    /* margin-left:200px; */
+   margin-right:0px;
+   text-align: center;
+   line-height: 75px;
+   font-size: 30px; 
+ }
+
+
+.font1{
+font-size: 100px;
+position: relative;
+animation-name: mymove;
+animation-duration: 5s;
+}
+
+.font2{
+    font-size: 130px;
+    font-weight: bold;
+    margin-left: 80px;
+      position: relative;
+      animation-name: mymove;
+      animation-duration: 5s;
+  
+    }
+img{
+  
+}
+    h1 {
+      color: white;
+      text-shadow: 4px 4px 35px #4169E1;
+      animation-name: example;
+      animation-duration: 4s;
+      animation: mymove 5s infinite;
+      animation-timing-function: linear;
+    }
+    
+    @keyframes mymove {
+      from {right: 0px;}
+      to {right: 480px;}
+    }
+    
+    
+
+    

@@ -1,0 +1,117 @@
+h1{
+    font-size: 35px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .topright {
+    position: absolute;
+    right: -15%;
+    width: 40%;
+  }
+  
+  
+
+  .flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: linear-gradient(to bottom right, #e8f8f6,rgb(14, 132, 132));
+    /* border-color: gray;
+    border-style: solid; */
+    /* justify-content: left; */
+  }
+  
+  .flex-container > div {
+    flex-direction: row-reverse;
+    border-width: 1px 1px 1px 1px;
+    /* border-color: gray; */
+    /* border-style: solid; */
+    width: 100%;
+    /* margin: 2px;  */
+    /* text-align: center; */
+    line-height: 15px;
+    font-size: 15px;
+    /* border-color: rgb(151, 20, 20);
+    border-style: solid; */
+    align-items: flex-start;
+  }
+
+  img {
+    align-content: right;
+    /* border-color: gray;
+    border-style: solid; */
+  }
+
+  
+  span {
+      font-size: 18px;
+      font-weight: bold;
+      text-align: center;
+      font-family:Verdana, Geneva, Tahoma, sans-serif
+    }
+  
+    #head{
+      background-image: linear-gradient(to bottom right, #e8f8f6,rgb(255, 255, 255));
+     }
+  
+    .button {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      display: inline-block;
+      border-radius: 10px;
+      background-color: #d0f5f1;
+      border: none;
+      color: #FFFFFF;
+      text-align: center;
+      padding: 5px;
+      width: 300px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 15px;
+    }
+    
+    .button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    
+    .button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    
+    .button:hover span {
+      padding-right: 40px;
+      color: rgb(38, 42, 43);
+    }
+    
+    .button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  
+    .flex-containerh > div {
+      margin: auto;
+      width: 50%;
+      /* margin: 10px; */
+      text-align: center;
+      line-height: 75px;
+      /* margin-left: auto; */
+      /* margin-right: auto; */
+    }
+
+    .location
+    {
+      align-content : left;
+      /* border-radius: 50%; */
+    }
+
+    .right-aligned
+    {
+      align-items :right;
+    }
